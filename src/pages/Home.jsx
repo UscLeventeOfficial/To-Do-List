@@ -97,7 +97,6 @@ const Home = () => {
   };
   return (
     <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 min-h-screen py-16 px-8 relative">
-      {/* Kijelentkezés gomb a jobb oldalon */}
       <button
         onClick={handleSignOut}
         className="absolute top-8 right-8 bg-red-500 text-white py-2 px-4 rounded-xl hover:bg-red-600 transition duration-200"
